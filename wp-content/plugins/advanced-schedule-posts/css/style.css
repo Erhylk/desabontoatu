@@ -1,0 +1,53 @@
+.hasp_error_mes {
+	color: red;
+}
+div#hasp_select_objects {
+    width: 700px;
+}
+div#hasp_select_objects th.column-expire, div#hasp_select_objects th.column-overwrite {
+    width: 130px;
+}
+#hasp_expire_div span, #hasp_overwrite_div span {
+	display: block;
+}
+input#hasp_expire_date, select#hasp_overwrite_post_id {
+	width: 100%;
+}
+
+.hasp_setting {
+	padding: 0px 11px 10px;
+}
+
+.hasp_setting span{
+	padding-left: 5px;
+}
+
+.sch_post a {
+	color: #0073aa;
+	-webkit-transition-property: border, background, color;
+	transition-property: border, background, color;
+	-webkit-transition-duration: .05s;
+	transition-duration: .05s;
+	-webkit-transition-timing-function: ease-in-out;
+	transition-timing-function: ease-in-out;
+}
+.sch_post a:hover,
+.sch_post a:active {
+	color: #00a0d2;
+}
+
+
+/* css for timepicker */
+/*
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { float: left; clear:left; padding: 0 0 0 5px; }
+.ui-timepicker-div dl dd { margin: 0 10px 10px 45%; }
+.ui-timepicker-div td { font-size: 90%; }
+.ui-tpicker-grid-label { background: none; border: none; margin: 0; padding: 0; }
+
+.ui-timepicker-rtl{ direction: rtl; }
+.ui-timepicker-rtl dl { text-align: right; padding: 0 5px 0 0; }
+.ui-timepicker-rtl dl dt{ float: right; clear: right; }
+.ui-timepicker-rtl dl dd { margin: 0 45% 10px 10px; }
+*/
